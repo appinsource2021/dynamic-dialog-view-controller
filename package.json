@@ -1,0 +1,59 @@
+{
+  "name": "@appinsource/material",
+  "version": "1.0.1",
+  "description": "react mui extended dynamic dialog component",
+  "main": "index.js",
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.5.1",
+    "@mui/lab": "^5.0.0-alpha.78",
+    "@mui/material": "^5.9.1",
+    "@mui/styled-engine": "^5.11.8",
+    "@mui/system": "^5.11.8",
+    "notistack": "^3.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-draggable": "^4.4.5"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-plugin-module-resolver": "^5.0.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^5.16.0",
+    "install": "^0.13.0",
+    "npm": "^9.4.2",
+    "regenerator-runtime": "^0.13.2",
+    "ts-loader": "^9.0.0",
+    "ts-standard": "^12.0.2",
+    "typescript": "^4.9.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel-dialog": "./node_modules/babel-cli/bin/babel.js --extensions '.tsx, .ts' ./src -d ../../../material/Prod/dynamic-dialog/dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appinsource2021/react-dynamic-dialog-view-controller.git"
+  },
+  "keywords": [
+    "react",
+    "dynamic",
+    "dialog",
+    "appnisource dynamic dialog",
+    "dynamic dialog",
+    "react dynamic dialog",
+    "react dialog"
+  ],
+  "author": "Suleyman Topaloglu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/appinsource2021/react-dynamic-dialog-view-controller/issues"
+  },
+  "homepage": "https://github.com/appinsource2021/react-dynamic-dialog-view-controller#readme"
+}
